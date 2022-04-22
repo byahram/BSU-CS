@@ -1,0 +1,78 @@
+body {
+  /* background-image: url("../images/wood.jpg"); */
+  background-color: #FFFFF5; /* almost white */
+  color: #003749; /* dark blue */
+}
+
+h1, h2, h3, h4, h5 {
+  color: #984376; /* maroon-ish */
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+  color: #A25684; /* slightly lighter maroon-ish */
+}
+
+h3 {
+  color: initial; /* resets to black */
+  font-style: italic;
+}
+
+p {
+  font-size: 18px;
+}
+
+p:hover {
+  background-color: green;
+}
+
+strong {
+  color: #009933; /* green */
+  font-family: "Arial", sans-serif;
+}
+
+em {
+  color: #003399; /* bluish */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: blue;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+ol > li > ul > li {
+	background-color: grey;
+}
+
+table, td, th {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+.important {
+	color: red;
+}
+
+.loud {
+	text-transform: uppercase;
+}
+
+#header {
+	text-transform: uppercase;
+}
+

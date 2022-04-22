@@ -1,0 +1,23 @@
+body {
+  font-family: 'consolas', monospace;
+}
+table, td, li {
+  border: 5px solid gray;
+  border-collapse: collapse;
+}
+
+table, ul{
+  background-color: black;
+  color: #0066FF;
+  font-size: 50pt;
+}
+
+td.redpill {
+  color: red;
+}
+
+li {
+  list-style: none;
+  width: 30%;
+  margin: 5px;
+}

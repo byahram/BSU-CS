@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Styles used in menu.html */
+ul.menu {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 12pt;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.menu > li {
+  background-color: #ff9900;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.menu a:visited {
+  color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+  text-shadow: 1px 1px 1px #444;
+}
+
+.menu a.selected {
+  font-size: 30pt;
+  color:#3366FF;
+}
+
+input[type="text"].focus {
+  background-color: #e7edf9;
+  padding: 3px;
+  color: #1f3e7c;
+}
+
+button {
+  font-family: 'Arial', sans-serif;
+  box-shadow:inset 0px 0px 3px 0px #f0f7fa;
+  background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color:#33bdef;
+  border-radius:3px;
+  border:1px solid #057fd0;
+  cursor:pointer;
+  color:#ffffff;
+  padding:5px;
+  text-decoration:none;
+  text-shadow:0px -1px 0px #5b6178;
+}
+button:hover {
+  background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color:#019ad2;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+
+/* Styles used in form_validation.php */
+legend {
+  font-weight: 400;
+}
+label {
+  padding: 4px;
+}
+input, textarea {
+  border-radius: 3px;
+  border: 1px solid #B0B0B0;
+  padding: 4px;
+}
+input.error, textarea.error {
+  border: 2px solid #FF6666;
+  background-color: rgba(255, 102, 102, .2);
+}
+label.error {
+  font-weight: 400;
+  color: #FF6666;
+}
+.submit {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #E6F0F5;
+}
+.submit:hover {
+  font-weight: 400;
+  background-color:#80B2CC;
+}
+.success {
+  color: #009900;
+  margin-left: 10px;
+}
+
+/* For hungry-brono.php */
+#horses {
+  float:left;
+  margin-right: 20px;
+}
+ul.bronco {
+  display: inline-block;
+}
+ul.bronco > li > ol {
+  display: none;
+}
+ul.bronco > li {
+  background-color: inherit;
+}
